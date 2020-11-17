@@ -19,10 +19,11 @@ class Terminal {
   }
 
   void printOptions(List<Option> options) {
-    for (int i = 0; i < options.length; i++) {
-      stdout.writeln('${i + 1}) ${options[i].label}');
-    }
-    stdout.writeln('Enter the number of your choice\n');
+    options.asMap().forEach((key, value) {
+      stdout.writeln('[$key] ${value.label}');
+    });
+
+    stdout.writeln('\nEnter the number of your choice:');
     stdout.write('>');
   }
 }
