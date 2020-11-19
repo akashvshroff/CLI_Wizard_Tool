@@ -25,7 +25,7 @@ class Terminal {
       stdout.writeln('[$key] ${value.label}');
     });
 
-    stdout.writeln('\nEnter the number of your choice:');
+    stdout.writeln('\nEnter your choice:');
     stdout.write('>');
   }
 }
