@@ -4,11 +4,24 @@ import 'option.dart';
 final Terminal _terminal = const Terminal();
 
 class Prompter {
-  dynamic ask(String prompt, List<Option> options) {
+  bool askBinary(String prompt) {
+    String input = _ask('$prompt (y/n)', []);
+    return input.toUpperCase().startsWith("Y");
+  }
+
+  dynamic askMultiple(String prompt, List<Option> options) {
+    String input = _ask(prompt, options);
+    try {
+      return options[int.parse(input)].value;
+    } catch (err) {
+      return askMultiple(prompt, options);
+    }
+  }
+
+  String _ask(String prompt, List<Option> options) {
     _terminal.clearScreen();
     _terminal.printPrompt(prompt);
     _terminal.printOptions(options);
-    final String input = _terminal.collectInput();
-    return options[int.parse(input)].value;
+    return _terminal.collectInput();
   }
 }
