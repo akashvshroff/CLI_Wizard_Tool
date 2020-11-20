@@ -1,5 +1,12 @@
 ### Version: 0.0.3
-
+- cbc1fdc (HEAD -> master) Added comments  
+- 8f06958 (origin/master) Added description
+- a7595bc Added purpose
+- 9bb7f96 Changelog formatting
+- b4aa725 Added outline
+- 7455998 Added purpose
+- a7ddbac Updated version
+- c962766 Updated changelog
 
 ### Version: 0.0.2
 - 2d76937 (HEAD -> master, origin/master) Changelog stylistic
@@ -8,7 +15,7 @@
 - 077968d Added repository
 
 ### Version: 0.0.1
-- b480e2c Added changelog
+- b480e2c (HEAD -> master, origin/master) Added changelog
 - 726c74f pubspec changes
 - 3bf282e Added readme
 - 592cfd8 Added license
