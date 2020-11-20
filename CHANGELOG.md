@@ -1,4 +1,7 @@
-726c74f (HEAD -> master) pubspec changes
+### Version: 0.0.1
+077968d (HEAD -> master) Added repository
+b480e2c (origin/master) Added changelog
+726c74f pubspec changes
 3bf282e Added readme
 592cfd8 Added license
 72b4690 Stylistic changes
