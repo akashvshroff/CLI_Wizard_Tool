@@ -22,7 +22,7 @@ class Terminal {
 
   void printOptions(List<Option> options) {
     options.asMap().forEach((key, value) {
-      stdout.writeln('[$key] ${value.label}');
+      stdout.writeln('[${key + 1}] ${value.label}');
     });
 
     stdout.writeln('\nEnter your choice:');

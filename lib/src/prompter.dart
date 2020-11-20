@@ -12,7 +12,7 @@ class Prompter {
   dynamic askMultiple(String prompt, List<Option> options) {
     String input = _ask(prompt, options);
     try {
-      return options[int.parse(input)].value;
+      return options[int.parse(input) - 1].value;
     } catch (err) {
       return askMultiple(prompt, options);
     }
