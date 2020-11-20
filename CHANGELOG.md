@@ -1,6 +1,9 @@
 ### Version: 0.0.1
-- 077968d (HEAD -> master) Added repository
-- b480e2c (origin/master) Added changelog
+- 2d76937 (HEAD -> master, origin/master) Changelog stylistic
+- fd5ce1a Added changelog
+- 077968d Added repository
+- 077968d Added repository
+- b480e2c Added changelog
 - 726c74f pubspec changes
 - 3bf282e Added readme
 - 592cfd8 Added license
