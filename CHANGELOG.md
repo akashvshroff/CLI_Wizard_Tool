@@ -1,4 +1,4 @@
-### Version: 0.0.1
+### Version: 0.0.2
 - 2d76937 (HEAD -> master, origin/master) Changelog stylistic
 - fd5ce1a Added changelog
 - 077968d Added repository
