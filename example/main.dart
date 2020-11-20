@@ -13,6 +13,6 @@ void main() {
 
   bool answer = prompter.askBinary('Do you like this lib?');
 
-  print('Colour code selected: $colourCode');
-  print('Answer entered: $answer');
+  print('colour code selected: $colourCode');
+  print('answer entered: $answer');
 }
